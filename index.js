@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 
-
 require('./config/environment')(app);
 require('./routes/routers')(app);
 
